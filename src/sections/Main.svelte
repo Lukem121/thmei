@@ -1,4 +1,5 @@
 <script>
+    import devs from '../assets/img1.png';
 
 </script>
 
@@ -9,4 +10,5 @@
         <span>development</span>
     </h1>
     <h2 class="text-2xl font-medium mt-4">Not the average website, not the average team, not the average products</h2>
+    <img src={devs} class="mt-6" alt="">
 </main>
