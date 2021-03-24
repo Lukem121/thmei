@@ -1,6 +1,6 @@
 <script>
 	import Hamburger from './Hamburger.svelte'
-    import logo from '../assets/logo.svg';
+    import logo from '../assets/logo-light.svg';
 	export let sidebar = false
 </script>
 
@@ -11,9 +11,9 @@
             <span class="ml-3 text-gray-900 font-bold text-3xl">Thmei</span>
         </a>
         <nav class="hidden md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 md:flex flex-wrap  items-center text-base justify-center">
-            <a href="#about" class="mr-5 hover:text-gray-900">About</a>
-            <a href="#pricing" class="mr-5 hover:text-gray-900">Pricing</a>
             <a href="#services" class="mr-5 hover:text-gray-900">Services</a>
+            <a href="#pricing" class="mr-5 hover:text-gray-900">Pricing</a>
+            <a href="#about" class="mr-5 hover:text-gray-900">About</a>
             <a href="#testimonials" class="mr-5 hover:text-gray-900">Testimonials</a>
         </nav>
         <div class="md:hidden flex justify-center items-center">
